@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+nav ul img {
+    width: 150px;
+    height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #182145;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-image: url("../img/teacher-3679814_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 5px rgb(0, 0, 0);
+    background-color: #00000054;
+}
+
+#blocPrincipal {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#leftColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 2;
+}
+
+#rightColumn {
+    flex: 1;
+}
+
+.custom-block {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-block-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-title {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+#participants {
+    margin-top: 20px;
+}
+
+#afpaTeam {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100% 0% 50% 50% / 50% 50% 50% 50%;
+    background-color: #47a729;
+    cursor: pointer;
+    font-size: 0.6rem;
+}
+
+input::placeholder {
+    font-size: 0.80rem;
+    color: #6c757d;
+}
+
+button {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
